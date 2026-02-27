@@ -1,0 +1,99 @@
+name: Qube APIs
+description: A collection of APIs provided by Qube for financial services and payment processing
+image: https://www.qube.com/logo.png
+created: '2024-01-15'
+modified: '2024-01-15'
+specificationVersion: '0.18'
+url: https://www.qube.com/apis.json
+apis:
+- name: Qube Payments API
+  description: API for processing payments, managing transactions, and handling payment methods
+  image: https://www.qube.com/images/payments-api.png
+  humanUrl: https://www.qube.com/products/payments
+  baseUrl: https://api.qube.com/v1/payments
+  tags:
+  - Payments
+  - Transactions
+  - Financial Services
+  properties:
+  - type: Documentation
+    url: https://docs.qube.com/payments
+  - type: OpenAPI
+    url: https://api.qube.com/openapi/payments.json
+  - type: Authentication
+    url: https://docs.qube.com/authentication
+  contact:
+  - FN: Qube API Support
+    email: api-support@qube.com
+    url: https://support.qube.com
+- name: Qube Cards API
+  description: API for managing virtual and physical payment cards
+  image: https://www.qube.com/images/cards-api.png
+  humanUrl: https://www.qube.com/products/cards
+  baseUrl: https://api.qube.com/v1/cards
+  tags:
+  - Cards
+  - Virtual Cards
+  - Card Management
+  properties:
+  - type: Documentation
+    url: https://docs.qube.com/cards
+  - type: OpenAPI
+    url: https://api.qube.com/openapi/cards.json
+  - type: SDKs
+    url: https://docs.qube.com/sdks
+  contact:
+  - FN: Qube API Support
+    email: api-support@qube.com
+    url: https://support.qube.com
+- name: Qube Accounts API
+  description: API for managing customer accounts and account information
+  image: https://www.qube.com/images/accounts-api.png
+  humanUrl: https://www.qube.com/products/accounts
+  baseUrl: https://api.qube.com/v1/accounts
+  tags:
+  - Accounts
+  - Customers
+  - Account Management
+  properties:
+  - type: Documentation
+    url: https://docs.qube.com/accounts
+  - type: OpenAPI
+    url: https://api.qube.com/openapi/accounts.json
+  - type: Postman Collection
+    url: https://www.postman.com/qube/accounts-api
+  contact:
+  - FN: Qube API Support
+    email: api-support@qube.com
+    url: https://support.qube.com
+common:
+- type: Portal
+  url: https://developer.qube.com
+- type: Getting Started
+  url: https://docs.qube.com/getting-started
+- type: Authentication
+  url: https://docs.qube.com/authentication
+- type: Rate Limits
+  url: https://docs.qube.com/rate-limits
+- type: Webhooks
+  url: https://docs.qube.com/webhooks
+- type: Status
+  url: https://status.qube.com
+- type: Terms of Service
+  url: https://www.qube.com/terms
+- type: Privacy Policy
+  url: https://www.qube.com/privacy
+- type: Support
+  url: https://support.qube.com
+- type: Blog
+  url: https://blog.qube.com
+maintainers:
+- FN: Qube Developer Relations
+  email: developer-relations@qube.com
+  url: https://developer.qube.com
+tags:
+- Financial Services
+- Payments
+- Banking
+- FinTech
+- APIs
