@@ -2,7 +2,7 @@ name: Qube APIs
 description: A collection of APIs provided by Qube for financial services and payment processing
 image: https://www.qube.com/logo.png
 created: '2024-01-15'
-modified: '2024-01-15'
+modified: '2026-03-03'
 specificationVersion: '0.18'
 url: https://www.qube.com/apis.json
 apis:
@@ -88,9 +88,8 @@ common:
 - type: Blog
   url: https://blog.qube.com
 maintainers:
-- FN: Qube Developer Relations
-  email: developer-relations@qube.com
-  url: https://developer.qube.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
 tags:
 - Financial Services
 - Payments
