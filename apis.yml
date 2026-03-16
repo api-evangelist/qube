@@ -1,5 +1,5 @@
 aid: qube
-name: Qube APIs
+name: Qube
 description: Qube is a platform providing APIs for financial services and payment processing solutions.
 type: Index
 url: https://raw.githubusercontent.com/api-evangelist/qube/refs/heads/main/apis.yml
